@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Royal Institue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<header class="header">
+    
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="School logo" width="100px" height="80px" />
+            <h4>Sydney Royal Institue</h4>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#Campuses">Campuses</a>
+            <a href="#onlinelearning">Online Learning</a>
+            <a href="#aboutus">About Us</a>
+        </div>
+    
+</header>
+
+<main>
+    <div class="container">
+        <img src="/images/banner.jpg" alt="Banner image" />
+        <div class="banner">
+            <h1>Learn Something New Every Day</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis, enim vero facere ipsa architecto
+                praesentium odit minus soluta harum.</p>
+            <button class="button" onclick="openModal('startHereModal')">Start here</button>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="practice">
+            <img src="/images/information-main.jpg" alt="A person reading" />
+            <h2>It Doesn't Hurt to Keep Practicing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum pariatur provident illum, iste nihil
+                ipsam. Iusto dignissimos atque ab vel accusantium corrupti explicabo iure distinctio, ipsam placeat.</p>
+            <p>Samual G. Renault</p>
+        </div>
+
+        <div class="section">
+            <div class="details">
+                <img src="/images/information-orientation.jpg" alt="Orientation data" />
+                <div class="text">
+                    <h3>Orientation Date</h3>
+                    <p>Tuesday 10, 8:30am-3pm</p>
+                    <button class="btn" onclick="openModal('orientationModal')">Read more</button>
+                </div>
+            </div>
+            <div class="details">
+                <img src="/images/information-campus.jpg" alt="Campus details" />
+                <div class="text">
+                    <h3>Our Campus</h3>
+                    <p>Find your closest campus</p>
+                    <button class="btn" onclick="openModal('campusModal')">Read more</button>
+                </div>
+            </div>
+            <div class="details">
+                <img src="/images/information-guest-lecture.jpg" alt="Guest lecture" />
+                <div class="text">
+                    <h3>Our Guest Lecture</h3>
+                    <p>Join a lecture with Oliver Sack</p>
+                    <button class="btn" onclick="openModal('lectureModal')">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h2>Start Learning</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="/images/course-software.jpg" alt="Software Engineering" />
+                <h3>Software Engineering</h3>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+            <div class="grid-item">
+                <img src="/images/course-computer-art.jpg" alt="Computer Arts" />
+                <h3>Computer Arts</h3>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+            <div class="grid-item">
+                <img src="/images/course-design.jpg" alt="Design" />
+                <h3>Design</h3>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+            <div class="grid-item">
+                <img src="/images/course-data.jpg" alt="Data Science" />
+                <h3>Data Science</h3>
+                <p>COURSES</p>
+                <p>SQL, Big Data, Data Analysis, visualization</p>
+            </div>
+            <div class="grid-item">
+                <img src="/images/course-business.jpg" alt="Business" />
+                <h3>Business</h3>
+                <p>COURSES</p>
+                <p>Product Development, Business Development</p>
+            </div>
+            <div class="grid-item">
+                <img src="/images/course-marketing.jpg" alt="Marketing" />
+                <h3>Marketing</h3>
+                <p>COURSES</p>
+                <p>Content Marketing, Analytics, Mobile Marketing</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h2>Thesis Exhibit</h2>
+    
+
+    <div class="information">
+        <div class="video">
+            <video src="/videos/thesis.mp4"  alt="Thesis Video" controls></video>
+            <h3>Reimagine Urbangit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut voluptatibus minus minima repellat ipsum harum blanditiis. Minus voluptatem culpa, quisquam quibusdam quam animi eaque soluta fuga nostrum quidem adipisci earum rerum quae? Dicta, blanditiis corrupti. Perferendis, facere? Natus, ea!</p>
+        </div>
+
+        <div class="section">
+            <div class="details">
+                <img src="/images/thesis-fisma.jpg" alt="Prototyping" />
+                <div class="text">
+                    <h3>Design and Prototype</h3>
+                    <p>Collection of prototypes</p>
+                    <button class="btn" onclick="openModal('thesisModal')">Read more</button>
+                </div>
+            </div>
+            <div class="details">
+                <img src="/images/thesis-now-and-then.jpg" alt="Buildings" />
+                <div class="text">
+                    <h3>Now and Then</h3>
+                    <p>Research study about New York</p>
+                    <button class="btn" onclick="openModal('buildingModal')">Read more</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- footer -->
+    <footer>
+        <p>© 2024 Sydney Royal Institute. All rights reserved</p>
+        <a href="#" id="terms-link">Terms and Policies</a>
+    </footer>
+</main>
+
+<!-- Modal Structure -->
+<div id="startHereModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('startHereModal')">&times;</span>
+        <h2>Start Here</h2>
+        <p>Learn how to get started with our courses and how to navigate through the school system.</p>
+    </div>
+</div>
+
+<div id="orientationModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('orientationModal')">&times;</span>
+        <h2>Orientation Date</h2>
+        <p>Find all the details regarding our orientation schedule and events.</p>
+    </div>
+</div>
+
+<!-- More modals for other "Read More" links can be added similarly -->
+<div id="campusModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('campusModal')">&times;</span>
+        <h2>Our Campuses</h2>
+        <ul>
+            <li>Sydney Royal Institute, Rouse Hill, NSW</li>
+            <li>Sydney Royal Institute, Sydney, NSW</li>
+            <li>Sydney Royal Institute, Campbelltown, NSW</li>
+        </ul>
+    </div>
+
+</div>
+
+<div id="lectureModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('lectureModal')">&times;</span>
+        <h2>Our Guest Lecture</h2>
+        <p>We are excited to announce an upcoming guest lecture on Design Thinking, a creative problem-solving approach
+            that emphasizes empathy, collaboration, and innovation. Join us as industry experts explore how this
+            methodology can transform the way we approach design challenges, helping you develop solutions that are both
+            user-centered and impactful. Whether you're a designer, developer, or aspiring professional, this lecture
+            will provide valuable insights into applying Design Thinking to real-world projects and creating meaningful,
+            effective experiences.
+        </p>
+        <p>10:00 am, Thursday, 12 December, 2024</p>
+        <p>St. George Hall, Sydney Campus</p>
+    </div>
+</div>
+
+<div id="thesisModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('thesisModal')">&times;</span>
+        <h2>Design</h2>
+        <p>Learn how to get started with our courses for Design thinking, Ux research, wireframing and prototyping. More details go here.</p>
+    </div>
+</div>
+
+<div id="buildingModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('buildingModal')">&times;</span>
+        <h2>Research Study about New York</h2>
+        <p>New York City, often referred to as "The Big Apple," is a vibrant and dynamic metropolis known for its iconic skyline, diverse culture, and global influence. As one of the world’s leading cultural, financial, and media centers, the city is home to landmarks like the Statue of Liberty, Times Square, and Central Park. With its bustling streets, world-class museums, and endless opportunities, New York offers something for everyone, from aspiring artists to ambitious entrepreneurs. The city's unique blend of history, innovation, and energy makes it a place of constant reinvention and excitement. Rearch reoprt is here.</p>
+    </div>
+</div>
+
+
+<!-- The Terms and Policies Modal -->
+<div id="terms-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('terms-modal')">&times;</span>
+        <h2>Terms and Policies</h2>
+        <p>
+            By using this website, you agree to the following terms and conditions. 
+            The school is committed to providing high-quality education and services 
+            to all students. You must respect the privacy and rights of others while 
+            using this website. Any misuse, fraudulent activities, or violations of 
+            school policies may result in disciplinary actions. The school reserves 
+            the right to modify these terms at any time.
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
