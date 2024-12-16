@@ -9,24 +9,26 @@
     <script src="script.js" defer></script>
 </head>
 
+<!-- Header section -->
 <header class="header">
-    
-        <div class="logo">
-            <img src="/images/logo.jpg" alt="School logo" width="100px" height="80px" />
-            <h4>Sydney Royal Institue</h4>
-        </div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#Campuses">Campuses</a>
-            <a href="#onlinelearning">Online Learning</a>
-            <a href="#aboutus">About Us</a>
-        </div>
-    
+
+    <div class="logo">
+        <img src="./images/logo.jpg" alt="School logo" width="100px" height="80px" />
+        <h4>Sydney Royal Institue</h4>
+    </div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Campuses</a>
+        <a href="#onlinelearning">Online Learning</a>
+        <a href="#" id="aboutus">About Us</a>
+    </div>
+
 </header>
 
+<!-- main section -->
 <main>
     <div class="container">
-        <img src="/images/banner.jpg" alt="Banner image" />
+        <img src="./images/banner.jpg" alt="Banner image" />
         <div class="banner">
             <h1>Learn Something New Every Day</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis, enim vero facere ipsa architecto
@@ -35,9 +37,11 @@
         </div>
     </div>
 
+    <!-- section 2 -->
+
     <div class="information">
         <div class="practice">
-            <img src="/images/information-main.jpg" alt="A person reading" />
+            <img src="./images/information-main.jpg" alt="A person reading" />
             <h2>It Doesn't Hurt to Keep Practicing</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum pariatur provident illum, iste nihil
                 ipsam. Iusto dignissimos atque ab vel accusantium corrupti explicabo iure distinctio, ipsam placeat.</p>
@@ -46,15 +50,15 @@
 
         <div class="section">
             <div class="details">
-                <img src="/images/information-orientation.jpg" alt="Orientation data" />
+                <img src="./images/information-orientation.jpg" alt="Orientation data" />
                 <div class="text">
                     <h3>Orientation Date</h3>
-                    <p>Tuesday 10, 8:30am-3pm</p>
+                    <p>March 10, 8:30am-3pm</p>
                     <button class="btn" onclick="openModal('orientationModal')">Read more</button>
                 </div>
             </div>
             <div class="details">
-                <img src="/images/information-campus.jpg" alt="Campus details" />
+                <img src="./images/information-campus.jpg" alt="Campus details" />
                 <div class="text">
                     <h3>Our Campus</h3>
                     <p>Find your closest campus</p>
@@ -62,51 +66,52 @@
                 </div>
             </div>
             <div class="details">
-                <img src="/images/information-guest-lecture.jpg" alt="Guest lecture" />
+                <img src="./images/information-guest-lecture.jpg" alt="Guest lecture" />
                 <div class="text">
                     <h3>Our Guest Lecture</h3>
-                    <p>Join a lecture with Oliver Sack</p>
+                    <p>Join a lecture with John Sack</p>
                     <button class="btn" onclick="openModal('lectureModal')">Read more</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- section 3 -->
     <div class="heading">
         <h2>Start Learning</h2>
         <div class="grid-container">
             <div class="grid-item">
-                <img src="/images/course-software.jpg" alt="Software Engineering" />
+                <img src="./images/course-software.jpg" alt="Software Engineering" />
                 <h3>Software Engineering</h3>
                 <p>COURSES</p>
                 <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
             <div class="grid-item">
-                <img src="/images/course-computer-art.jpg" alt="Computer Arts" />
+                <img src="./images/course-computer-art.jpg" alt="Computer Arts" />
                 <h3>Computer Arts</h3>
                 <p>COURSES</p>
                 <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
             <div class="grid-item">
-                <img src="/images/course-design.jpg" alt="Design" />
+                <img src="./images/course-design.jpg" alt="Design" />
                 <h3>Design</h3>
                 <p>COURSES</p>
                 <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
             <div class="grid-item">
-                <img src="/images/course-data.jpg" alt="Data Science" />
+                <img src="./images/course-data.jpg" alt="Data Science" />
                 <h3>Data Science</h3>
                 <p>COURSES</p>
                 <p>SQL, Big Data, Data Analysis, visualization</p>
             </div>
             <div class="grid-item">
-                <img src="/images/course-business.jpg" alt="Business" />
+                <img src="./images/course-business.jpg" alt="Business" />
                 <h3>Business</h3>
                 <p>COURSES</p>
                 <p>Product Development, Business Development</p>
             </div>
             <div class="grid-item">
-                <img src="/images/course-marketing.jpg" alt="Marketing" />
+                <img src="./images/course-marketing.jpg" alt="Marketing" />
                 <h3>Marketing</h3>
                 <p>COURSES</p>
                 <p>Content Marketing, Analytics, Mobile Marketing</p>
@@ -114,38 +119,40 @@
         </div>
     </div>
 
+    <!-- section 4 -->
     <div class="heading">
         <h2>Thesis Exhibit</h2>
-    
-
-    <div class="information">
-        <div class="video">
-            <video src="/videos/thesis.mp4"  alt="Thesis Video" controls></video>
-            <h3>Reimagine Urbangit</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut voluptatibus minus minima repellat ipsum harum blanditiis. Minus voluptatem culpa, quisquam quibusdam quam animi eaque soluta fuga nostrum quidem adipisci earum rerum quae? Dicta, blanditiis corrupti. Perferendis, facere? Natus, ea!</p>
-        </div>
-
-        <div class="section">
-            <div class="details">
-                <img src="/images/thesis-fisma.jpg" alt="Prototyping" />
-                <div class="text">
-                    <h3>Design and Prototype</h3>
-                    <p>Collection of prototypes</p>
-                    <button class="btn" onclick="openModal('thesisModal')">Read more</button>
-                </div>
+        <div class="information">
+            <div class="video">
+                <video src="./videos/thesis.mp4" alt="Thesis Video" controls></video>
+                <h3>Reimagine Urbangit</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut voluptatibus minus minima repellat
+                    ipsum harum blanditiis. Minus voluptatem culpa, quisquam quibusdam quam animi eaque soluta fuga
+                    nostrum quidem adipisci earum rerum quae? Dicta, blanditiis corrupti. Perferendis, facere? Natus,
+                    ea!</p>
             </div>
-            <div class="details">
-                <img src="/images/thesis-now-and-then.jpg" alt="Buildings" />
-                <div class="text">
-                    <h3>Now and Then</h3>
-                    <p>Research study about New York</p>
-                    <button class="btn" onclick="openModal('buildingModal')">Read more</button>
+
+            <div class="section">
+                <div class="details">
+                    <img src="./images/thesis-fisma.jpg" alt="Prototyping" />
+                    <div class="text">
+                        <h3>Design and Prototype</h3>
+                        <p>Collection of prototypes</p>
+                        <button class="btn" onclick="openModal('thesisModal')">Read more</button>
+                    </div>
                 </div>
-            </div>
+                <div class="details">
+                    <img src="./images/thesis-now-and-then.jpg" alt="Buildings" />
+                    <div class="text">
+                        <h3>Now and Then</h3>
+                        <p>Research study about New York</p>
+                        <button class="btn" onclick="openModal('buildingModal')">Read more</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
     <!-- footer -->
     <footer>
         <p>© 2024 Sydney Royal Institute. All rights reserved</p>
@@ -154,10 +161,29 @@
 </main>
 
 <!-- Modal Structure -->
+<div id="aboutusModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('aboutusModal')">&times;</span>
+        <h2>About Us</h2>
+        <p>Welcome Sydney Royal Institute, where we empower learners to unlock their full potential and thrive in
+            today’s fast-paced world. Our comprehensive range of courses in Business, Web Development, Data Analysis,
+            Marketing, and Computer Arts & Design are designed to equip students with the skills and knowledge needed to
+            succeed in their careers. Whether you're looking to build a solid foundation or advance your expertise, we
+            offer a supportive environment that fosters creativity, critical thinking, and practical learning. Join us
+            on your journey to success and discover the future of education today!</p>
+        <h3>Sydney Royal Institute</h3>
+        <p>119, City Building, Sydney, NSW 2154</p>
+        <p>email: sydneyroyalinstitute@edu.com</p>
+        <p>Contact: 0425 000 000</p>
+    </div>
+
+</div>
+
+
 <div id="startHereModal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeModal('startHereModal')">&times;</span>
-        <h2>Start Here</h2>
+        <h4>Start Here</h4>
         <p>Learn how to get started with our courses and how to navigate through the school system.</p>
     </div>
 </div>
@@ -167,6 +193,11 @@
         <span class="close" onclick="closeModal('orientationModal')">&times;</span>
         <h2>Orientation Date</h2>
         <p>Find all the details regarding our orientation schedule and events.</p>
+        <ul>
+            <li>Tuesday, December 10, 2023, 8:30am-3pm</li>
+            <li>Monday, January 6, 2024, 8:30am-3pm</li>
+            <li>Wednesday, Feburary 11, 2024, 8:30am-3pm</li>
+        </ul>
     </div>
 </div>
 
@@ -204,7 +235,8 @@
     <div class="modal-content">
         <span class="close" onclick="closeModal('thesisModal')">&times;</span>
         <h2>Design</h2>
-        <p>Learn how to get started with our courses for Design thinking, Ux research, wireframing and prototyping. More details go here.</p>
+        <p>Learn how to get started with our courses for Design thinking, Ux research, wireframing and prototyping. More
+            details go here.</p>
     </div>
 </div>
 
@@ -212,7 +244,12 @@
     <div class="modal-content">
         <span class="close" onclick="closeModal('buildingModal')">&times;</span>
         <h2>Research Study about New York</h2>
-        <p>New York City, often referred to as "The Big Apple," is a vibrant and dynamic metropolis known for its iconic skyline, diverse culture, and global influence. As one of the world’s leading cultural, financial, and media centers, the city is home to landmarks like the Statue of Liberty, Times Square, and Central Park. With its bustling streets, world-class museums, and endless opportunities, New York offers something for everyone, from aspiring artists to ambitious entrepreneurs. The city's unique blend of history, innovation, and energy makes it a place of constant reinvention and excitement. Rearch reoprt is here.</p>
+        <p>New York City, often referred to as "The Big Apple," is a vibrant and dynamic metropolis known for its iconic
+            skyline, diverse culture, and global influence. As one of the world’s leading cultural, financial, and media
+            centers, the city is home to landmarks like the Statue of Liberty, Times Square, and Central Park. With its
+            bustling streets, world-class museums, and endless opportunities, New York offers something for everyone,
+            from aspiring artists to ambitious entrepreneurs. The city's unique blend of history, innovation, and energy
+            makes it a place of constant reinvention and excitement. Rearch reoprt is here.</p>
     </div>
 </div>
 
@@ -223,26 +260,12 @@
         <span class="close" onclick="closeModal('terms-modal')">&times;</span>
         <h2>Terms and Policies</h2>
         <p>
-            By using this website, you agree to the following terms and conditions. 
-            The school is committed to providing high-quality education and services 
-            to all students. You must respect the privacy and rights of others while 
-            using this website. Any misuse, fraudulent activities, or violations of 
-            school policies may result in disciplinary actions. The school reserves 
+            By using this website, you agree to the following terms and conditions.
+            The school is committed to providing high-quality education and services
+            to all students. You must respect the privacy and rights of others while
+            using this website. Any misuse, fraudulent activities, or violations of
+            school policies may result in disciplinary actions. The school reserves
             the right to modify these terms at any time.
         </p>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

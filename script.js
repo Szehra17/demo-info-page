@@ -33,3 +33,8 @@ window.onclick = function(event) {
         closeModal('terms-modal');
     }
 }
+
+document.getElementById("aboutus").onclick = function(event) {
+    event.preventDefault();  // Prevent the default action (following the link)
+    openModal('aboutusModal');  // Open the about us modal
+}
